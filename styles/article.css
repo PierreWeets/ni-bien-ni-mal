@@ -1,0 +1,164 @@
+    table ,tr, td {
+        width: 100%;
+        border: 2px solid #cecece;
+        border-collapse: collapse;
+        text-align: left;
+        table-layout: fixed;
+    }
+    
+    th {
+        line-height : 30px;
+        text-align: center;
+        border: 4px solid #cecece
+    }
+    
+
+    h1 {
+        color : rgb(241, 170, 241);
+
+    }
+    h2 {
+        color : blue;
+    }
+    
+    h3 {
+        color : orange;
+    }
+    
+    .bien {
+        color: green;
+        text-transform: uppercase;
+    }
+
+    .mal {
+        color: red;
+        text-transform: uppercase;
+    }
+
+
+    body {
+        font-family: "Open Sans", "Times New Roman";
+        font-size: 25px;
+        color: rgba(46, 46, 28, 0.986);
+        background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFRUVFRUVFRUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NDg0NDysZFRk3Ny0tKystKysrKys3NzctLTcrKzcrLS03LS0rLSsrLS03Ny0tLS0rLSsrNzcrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAKxAAAwACAAcAAQQABwAAAAAAAAECAxEEEhMhMUFRYQUUcYEiMkJikbHx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARASESAv/aAAwDAQACEQMRAD8A+smNoOjo4gbQ6gZSSrE1IygcIqwqQQoZSRS6GUjJBIsBIIUgqQFSGUjJDJEUqQyQTaIAYOg6ClMPoGhQph9A0KFMxtA0ArQrkpoBUR0Yq0K5AQRwU0AqJNGK6EcBITQjgpoxUScilwaLUiJijgTQSKcoTGM1uMEBhSCFSaWMmKsFIIAkowUjBSFUUhkaUFIlGSCkYJFbRjGCiYBgCYAQMYxgMYxgAbRjAAVjgLUTaFaKsRioQwQaLQNCuR9AYqJ6MFilqQQGMKQNmJ7DsxWooYTmG5hVg6KSiWxuYlIqg7JKhlQpDjyyaYUKsU2NslzBVCkUCImEUMYUOy0Extm2Bgg2bZQWDZtmJRgg2bYG2YGwNkoOzbBsV0KG2KwOgbFIDAZsDYpB2KwOhXQqRmYGwOi0gmFdA5hUjndG5zm5zJsw6R1plon6ccwztX8k3VzFOYjsNP1/0Gt+iVYXnGVEZhsosD+oVIpzjLIR6TS7iwqFI65Yxyzm0iXVb8BY9DZlRxRmZaeIQqR0bDslz+9DKhSKbNsXZtlqQ2zbE5jcwpD7NsTmNzCkPs2yVULzj0vlV0bmIuwOmSkVdCuiewdxSKOxecSpZNirFXQrsn3ETbFSLOxXYjkbIlotIHUA8gkwC5YqQ/UB1Cc46fop+0f1CkWmJ8aGrB8eicpllRltKcTQGt/guqNc7A568GVv4MsbDlxVrsBF5dAXFG/Zv/U/+DVwi8+vZeCq4rsRy5n9Jrhm/HZfkvh4bX+YcC4MfNttMrjXL3W/7LS14HTRKOPHDt7OjHiS8heRLxo57ytgdnUQedHBGy00B0gbAqGIFT9A1+Q8yYtYtvYAUv6NM/kaZSGaKgG0gWvgrxkU3KZsV4zTIC/yMml7GqROigH50/aIWu46wrfwfSA5qli5JfpP+jovIkJ+4KJRFfBunXvRTrozfzuBN4/9yGhSvL2c2TA37/knWJT7KO286XZMhVfDjd77F4gRHTNDrMjzuuL1RFr1euJeZHm9YHVHkr1JylFkOCebX4GWRkg79i1JDqDLIyAXTRzZcj/J2dQFMo4XkaF/cs6sz2tHDWB+jWRFetsZM54h/B+Svgg64vQ80ieHF22wvG/RlVlY8ZjnnDZ0Y8WvIBrHvvvRRLRlSZLLL9EFec3UOaWxabKOxsDs5po2yCl5QLOQqBORoo6lmHWU5scsldAd3WRK7T9nNFlZhtgDLaRx3lPQzaSOLFwdU9vsi4I9VjY+Iafk6n+nzrycvE4lPgvEdsZ0/ImaVXZHDNaKTlYhXXj4KfyXeFfCfCZfTL0zOq8RJsvPDNrfv4zvnhpT3oosZd+kjxpx0/TOnHwr7Pwenyh0PSxHGmvIzxb/APCiRmZE1iQyxoWyayAbLia8dznq2d0sPImUcOFt+jsjEvY0yl4C2BniQOkheoGMhALRHq6Oqp2cmThq9FDrOCsuznyYaleB+H29vX8CC6ZebIxirzvt8L6IBWRE3aNnnt2OTYHUtAnD37EcL7nZMgLGLXdhrGm97NlZsbAZSid8OmV2TqwJVwqXdHLeRz2R3c++xzPBTfrRRyPJqu51Li19Nk4BP2zmy/p9b/w90XmimXjl6OLJl2y7/Tr15Ql8Ba9b/g1kZ6hs3Ma4a7Psw4sbZoPi4il4ZdcfXxHPUtPTTNcaZmYPbVB2TYNnNpV0K6J7FdBV1Qxz85lkCLuRXhW9g6oybAbRmxVQ/YCLpm5iilB0gEa7C45aKtBQUVROso2haxoIeaC9Ern4GZYDDBSNtALo3SXwdBAnyJDNmqdigAS2F0JksKDvQObZNmllRVFfBBDVZFV5xOpo56tmxtlRd5xuqjj2I8gg7Msqkc+LDrt6NjylVlAd4+xF4N+ToWVB5kAKFtDbAyKmka5bJ1k7lMfcqMsX9k2js5RJxgSiSmwZE0R6gF0hn2OdZA1YVXqBWQ5XQqoRHdzoZHNFMtNEDgpA2MmBG7/kpjoNSn5RlpAJVhVksiEiiq6w7JTY7oiG2Bm2YCdMjZdv8HM33KoBTNyjTAQY2w1iLQtDEUk40ZwhzaCOa8b9EcnCs7miXK9/gtHm3LXkpN+jrvh9nLl4V72i0UjbejqWEHDQ0u/kvoghNpiZdiYX3LVOwOVSdOOQqdBTCqh2KmEiEyvsc049d2dbRzcQyidP4I2BCtlBbHxdxUimFdwLSCqDUaJ0yCk1stJz4irIqotmgW2EJTIj5BJZVVgo2JLGIGTGTEAA2QioDeUEtsoW5Z0YJ7GxsomRGoTuMwgI6Bzi5WR5wrpVh2cvOMshUdDZtoirC7ILbA2c3UM7KFVJDzkAYCoDGIombMYBKyEboxiolTFRjFFEUxGMB00zkutsxiYGjsXRjBRmhclGMRELsmmYxoXxsrsxiKwTGIEqApGMA0odUYwDAMYISzmaCYqosyoxioZWFWEwApCgMB//2Q==");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        /*background: -moz-linear-gradient(100deg, rgb(171, 171, 221), rgb(123, 226, 123), rgb(150, 118, 118));*/
+        padding: 200px;
+        margin: auto;
+        max-width: 90%;
+    }
+    /*class 'titre'*/
+    .titre {
+        font-family: "Helvetica";
+        background: linear-gradient(rgb(194, 191, 191), rgb(59, 58, 58));
+        color : rgb(231, 37, 231);
+        text-align: center;
+        font-size : 150%;
+        width: 50%;
+        height: 200px;
+        margin: auto;
+        border-left: 3px solid rgb(233, 5, 5);
+        padding: 30px;
+    }
+
+    .reference{
+        font-size : 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color : red;        
+    }
+
+    .citation{
+        background-color: grey;
+        border-left: 5px solid rgb(233, 5, 5);
+        font-size : 130%;
+        margin: auto;  
+        font-weight: italic; 
+        
+    }
+
+    /*applies at all objects with attribute "title" */    
+    [title] {
+        border: 5px solid rgb(228, 9, 38);
+    }
+
+    /*applies at the objects with attribute "title" containing 'bien'. Applies after the search on attribute "title" */  
+    [title~="bien"]{
+        border: 5px solid yellow;
+    }
+
+    img {
+        float: right;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin :50px;
+        width: 50%;
+    }
+
+    hr.separation {
+        size : 10px;
+        width : 75% ;
+        align-content: center;
+    }
+    
+    .villageois{
+        /*background-color: wheat;*/
+        line-height : 20pt;
+        font-family: 'Arial', cursive;
+        font-size: 20pt;
+        border-left: 5px solid blue;
+    }
+
+    .fermier{
+        background-color: rgb(88, 245, 96);
+        line-height : 20pt;
+        font-family: 'Times New Roman', cursive;
+        font-size: 20pt;
+        border-left: 5px solid green;
+    }
+
+    .header {
+        background-color: greenyellow;
+
+    }
+
+    div.mars > p {
+       /* background-color: hotpink;*/
+
+    }
+
+    /*all the children paragraphes of the parent division with class = 'fermierChinois'*/    
+    div.fermierChinois > p {
+        /*background-color: rgb(53, 124, 230);*/
+    }
+    
+    tr:nth-child(even) {background: rgb(97, 94, 94)};
+    tr:nth-child(odd) {background: rgb(85, 72, 72)};
+
+    li::first-line {
+        font-weight: bold;
+    }
+
+    li.penseBien {
+        background-image : url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-3.21/master/LearningPath/01-Prairie/05.HTML-CSS/progressive-enhancement/bien.png?token=APHV5HDOSHGZKXQJQYL57U265IKVO");
+        background-repeat:no-repeat;
+        background-position:right;
+        padding-right:50px;
+        display:inline;
+    }
+
+    li.penseBien:after {
+        content: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-3.21/master/LearningPath/01-Prairie/05.HTML-CSS/progressive-enhancement/bien.png?token=APHV5HDOSHGZKXQJQYL57U265IKVO");
+    }
+    
+
+    li.penseMal:after {
+        content: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-3.21/master/LearningPath/01-Prairie/05.HTML-CSS/progressive-enhancement/mal.png?token=APHV5HEX47AXQK7RYUMEOC265IPCG");
+    }
+
+    li.penseChat:after {
+        content: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-3.21/master/LearningPath/01-Prairie/05.HTML-CSS/progressive-enhancement/chat.png?token=APHV5HHYIRDYFHLLJIBVKUS65IPFS");
+    }
